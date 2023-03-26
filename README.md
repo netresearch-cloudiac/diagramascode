@@ -23,6 +23,7 @@ pip install -r requirements.txt
 # within alphine linux container
 sudo apk add graphviz
 sudo apk add py3-pip
+sudo apk add terminus-font font-inconsolata font-dejavu font-noto font-noto-cjk font-awesome font-noto-extra
 
 # create python virtual environment and install requirements
 
