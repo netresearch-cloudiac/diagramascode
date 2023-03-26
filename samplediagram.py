@@ -4,5 +4,5 @@ from diagrams.aws.database import RDS
 from diagrams.aws.network import ELB
 
 with Diagram("Web Service", show=False):
-    ELB("lb") >> EC2("web") >> RDS("userdb")
+    ELB("lb02") >> EC2("web") >> RDS("userdb")
     

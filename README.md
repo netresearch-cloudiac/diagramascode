@@ -13,3 +13,24 @@ python -m venv venv_diagramascode
 venv_diagramascode\Scripts\activate
 pip install -r requirements.txt
 ```
+
+## Docker dev container
+	"name": "Alpine",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.17"
+
+```shell
+# within alphine linux container
+sudo apk add graphviz
+sudo apk add py3-pip
+
+# create python virtual environment and install requirements
+
+```
+
+# how to run
+Examples given in https://diagrams.mingrammer.com/docs/getting-started/examples
+
+```shell
+python diagram.py
+```
